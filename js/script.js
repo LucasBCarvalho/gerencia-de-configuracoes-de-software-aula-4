@@ -3,7 +3,6 @@ function diferenca() {
     let valor2 = document.getElementById("valor2").value;
 
     if (!valor1 || !valor2) {
-        console.log("entrou aqui");
         alert("Por favor, digite valores numéricos válidos em ambos os campos.");
         return;
     }
